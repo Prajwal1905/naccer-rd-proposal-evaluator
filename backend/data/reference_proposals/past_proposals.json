@@ -1,0 +1,200 @@
+[
+  {
+    "id": "PROP-2019-001",
+    "title": "Underground Coal Gasification (UCG) Feasibility Study for Deep Seams of Jharia Coalfield",
+    "research_area": "Underground Coal Gasification",
+    "year": 2019,
+    "institution": "IIT (ISM) Dhanbad",
+    "abstract": "This project investigates the feasibility of underground coal gasification (UCG) in deep, unmineable coal seams of the Jharia coalfield. The study covers site characterization, gasification chamber design, syngas composition prediction, and environmental risk assessment for groundwater contamination.",
+    "objectives": "1. Characterize deep coal seams suitable for UCG. 2. Develop a 2D reactive transport model for gasification cavity growth. 3. Predict syngas calorific value and composition under varying oxidant injection rates. 4. Assess groundwater contamination risk from UCG byproducts.",
+    "methodology": "Laboratory-scale UCG simulation using a fixed-bed reactor with coal samples from Jharia. Reactive transport modeling using COMSOL Multiphysics. Geological characterization via borehole logging data. Groundwater risk assessed using hydrogeological modeling and tracer tests.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2019-007",
+    "title": "Development of a Wearable Gas Monitoring System for Underground Coal Mine Workers",
+    "research_area": "Mine Safety",
+    "year": 2019,
+    "institution": "NIT Rourkela",
+    "abstract": "A wearable IoT-based device for continuous monitoring of methane, carbon monoxide, and oxygen levels for underground mine workers, with real-time alerts transmitted to a surface control room via a mesh network of relay nodes.",
+    "objectives": "1. Design a low-power multi-gas sensor module. 2. Develop a LoRa-based mesh communication network for underground transmission. 3. Build a surface dashboard for real-time worker location and gas exposure tracking. 4. Field trial in an operational mine.",
+    "methodology": "Sensor selection and calibration (electrochemical CO/O2 sensors, catalytic CH4 sensor). Embedded firmware development on ESP32. LoRa mesh network design and range testing in tunnel-like environments. Field trial conducted over 3 months at a CIL subsidiary mine.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2020-003",
+    "title": "Bioremediation of Acid Mine Drainage Using Indigenous Sulfate-Reducing Bacteria",
+    "research_area": "Environmental Rehabilitation",
+    "year": 2020,
+    "institution": "CSIR-NEERI",
+    "abstract": "This study isolates and characterizes indigenous sulfate-reducing bacteria (SRB) from abandoned mine pits for use in passive bioremediation systems to treat acid mine drainage (AMD), targeting heavy metal precipitation and pH neutralization.",
+    "objectives": "1. Isolate and identify SRB strains from AMD-affected sites. 2. Evaluate metal removal efficiency (Fe, Mn, Al) under varying pH and temperature. 3. Design a pilot-scale constructed wetland with SRB bioreactor. 4. Long-term monitoring of treated water quality.",
+    "methodology": "Microbial isolation via anaerobic culturing from sediment samples. 16S rRNA sequencing for strain identification. Batch reactor experiments measuring metal precipitation rates. Pilot wetland constructed at an abandoned OC mine in MCL.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2020-011",
+    "title": "Autonomous Haul Truck Route Optimization Using Reinforcement Learning for Opencast Mines",
+    "research_area": "Automation in Mining",
+    "year": 2020,
+    "institution": "IIT Kharagpur",
+    "abstract": "A reinforcement learning framework that optimizes haul truck routing and dispatch in large opencast mines to minimize fuel consumption and cycle time, using a digital twin simulation of mine haul roads and dump/loading points.",
+    "objectives": "1. Build a digital twin simulation of an opencast mine haul network. 2. Develop a Deep Q-Network (DQN) based dispatch policy. 3. Compare RL-based dispatch against existing rule-based dispatch systems. 4. Estimate fuel and time savings.",
+    "methodology": "Simulation environment built in Python using SimPy, calibrated with real haul cycle data from an MCL opencast mine. DQN agent trained on simulated episodes. Benchmarking against existing FMS (Fleet Management System) logs.",
+    "approved": 0
+  },
+  {
+    "id": "PROP-2021-002",
+    "title": "Numerical Modeling of Spontaneous Combustion Propagation in Goaf Areas of Underground Coal Mines",
+    "research_area": "Mine Safety",
+    "year": 2021,
+    "institution": "CIMFR Dhanbad",
+    "abstract": "Development of a 3D CFD model to simulate spontaneous combustion (fire) propagation in goaf (caved) areas of underground coal mines, incorporating oxygen ingress, coal oxidation kinetics, and heat transfer, to predict early warning indicators.",
+    "objectives": "1. Develop coal oxidation kinetic parameters via lab-scale adiabatic oven tests. 2. Build 3D CFD model of goaf airflow and oxidation heat release. 3. Validate model against historical fire incident data. 4. Recommend early-warning gas ratio thresholds.",
+    "methodology": "Adiabatic oven tests on coal samples from fire-prone seams. CFD modeling using ANSYS Fluent with porous media formulation for goaf. Validation against gas chromatography data from two historical fire incidents at ECL mines.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2021-009",
+    "title": "Machine Learning Based Prediction of Roof Fall Incidents Using Geotechnical and Sensor Data",
+    "research_area": "Mine Safety",
+    "year": 2021,
+    "institution": "IIT (ISM) Dhanbad",
+    "abstract": "A machine learning pipeline combining geotechnical borehole data, support pressure sensor readings, and historical roof fall records to predict the likelihood of roof fall events in underground bord-and-pillar workings.",
+    "objectives": "1. Compile a historical roof fall incident database across 5 mines. 2. Engineer features from geotechnical and support load data. 3. Train and compare Random Forest, XGBoost, and LSTM models. 4. Develop an early-warning dashboard for mine officials.",
+    "methodology": "Data collection from mine records and support load monitoring systems. Feature engineering including rock mass rating (RMR), support pressure trends, and depth of cover. Model training with 5-fold cross-validation. Dashboard developed in React with Flask backend.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2021-014",
+    "title": "Techno-Economic Assessment of Coal Bed Methane (CBM) Recovery from Abandoned Mine Workings",
+    "research_area": "Coal Bed Methane",
+    "year": 2021,
+    "institution": "Indian School of Mines Alumni Research Group",
+    "abstract": "An evaluation of the technical feasibility and economic viability of capturing and utilizing coal bed methane (CBM) from sealed, abandoned underground mine workings in the Raniganj coalfield, including reservoir simulation and cost-benefit analysis.",
+    "objectives": "1. Estimate residual gas reserves in abandoned workings using reservoir simulation. 2. Design a gas extraction well pattern. 3. Evaluate utilization options (power generation vs. piped gas). 4. Conduct techno-economic and carbon-credit analysis.",
+    "methodology": "Reservoir simulation using CMG-GEM software calibrated with historical gas emission data. Well pattern design based on permeability mapping. Economic modeling with NPV/IRR analysis under three utilization scenarios.",
+    "approved": 0
+  },
+  {
+    "id": "PROP-2022-005",
+    "title": "Drone-Based Multispectral Monitoring of Mine Overburden Dump Stability and Vegetation Health",
+    "research_area": "Environmental Rehabilitation",
+    "year": 2022,
+    "institution": "BIT Mesra",
+    "abstract": "A drone-based remote sensing system using multispectral and LiDAR sensors to periodically monitor overburden dump slope stability and assess vegetation health on reclaimed mine land, generating automated alerts for slope movement.",
+    "objectives": "1. Establish a drone survey protocol for periodic dump monitoring. 2. Develop a digital elevation model (DEM) differencing method for slope movement detection. 3. Compute NDVI-based vegetation health indices for reclaimed areas. 4. Build an alert system for slope instability.",
+    "methodology": "Drone surveys (DJI Matrice with multispectral camera and LiDAR) conducted bi-monthly over two overburden dumps at an SECL mine. DEM differencing in QGIS. NDVI time-series analysis. Alert thresholds based on displacement rate.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2022-012",
+    "title": "Development of Geopolymer Bricks from Fly Ash and Mine Overburden Material for Construction Applications",
+    "research_area": "Mine Waste Utilization",
+    "year": 2022,
+    "institution": "NIT Durgapur",
+    "abstract": "This project develops geopolymer bricks using a combination of thermal power plant fly ash and mine overburden waste material, activated with alkaline solutions, targeting compressive strength suitable for low-cost housing construction near mining areas.",
+    "objectives": "1. Characterize fly ash and overburden material composition. 2. Optimize alkaline activator ratio for geopolymerization. 3. Test compressive strength, water absorption, and durability of bricks. 4. Conduct cost comparison with conventional clay bricks.",
+    "methodology": "Material characterization via XRF and XRD. Brick samples prepared with varying fly ash:overburden:activator ratios, cured at ambient temperature. Compressive strength testing per IS 1077. Life-cycle cost analysis against fired clay bricks.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2022-018",
+    "title": "Real-Time Slope Stability Monitoring of Opencast Mine Benches Using Ground-Based Radar Interferometry",
+    "research_area": "Mine Safety",
+    "year": 2022,
+    "institution": "CIMFR Dhanbad",
+    "abstract": "Deployment of ground-based synthetic aperture radar (GBSAR) for continuous, millimeter-precision monitoring of opencast mine bench slopes, integrated with rainfall data to predict slope failure risk and trigger evacuation alerts.",
+    "objectives": "1. Deploy GBSAR units at two high-risk benches in an opencast mine. 2. Develop displacement-time series analysis algorithms. 3. Correlate displacement rates with rainfall and blasting events. 4. Build a threshold-based alert system integrated with mine control room.",
+    "methodology": "GBSAR units (IBIS-FM type) installed at SECL opencast mine. Continuous displacement data collected over 8 months. Statistical correlation analysis with rainfall and blast vibration logs. Alert thresholds derived from inverse velocity method.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2023-004",
+    "title": "AI-Based Coal Quality Estimation from Borehole Core Images Using Deep Learning",
+    "research_area": "Coal Quality Assessment",
+    "year": 2023,
+    "institution": "IIT Kharagpur",
+    "abstract": "A deep learning image classification and regression pipeline that estimates coal seam quality parameters (ash content, calorific value, moisture) directly from borehole core photographs, reducing dependency on time-consuming laboratory proximate analysis.",
+    "objectives": "1. Curate a labeled dataset of core photographs with corresponding lab proximate analysis results. 2. Develop a CNN-based regression model for ash content and GCV prediction. 3. Validate model accuracy against lab results across multiple seams. 4. Build a mobile app for field-based core image capture and prediction.",
+    "methodology": "Dataset of 2,400 core images from 6 coalfields paired with proximate analysis (ash, moisture, GCV, VM). CNN architecture based on ResNet-50 with regression head. Train/test split with cross-coalfield validation. Mobile app built using Flutter with on-device TFLite inference.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2023-009",
+    "title": "Hydrogeological Impact Assessment of Deep Opencast Mining on Regional Aquifer Systems Using Groundwater Modeling",
+    "research_area": "Environmental Rehabilitation",
+    "year": 2023,
+    "institution": "Jadavpur University",
+    "abstract": "A regional groundwater flow modeling study to assess the long-term impact of deep opencast mining (beyond 300m) on aquifer drawdown and post-mining water table recovery, using MODFLOW simulations calibrated with monitoring well data.",
+    "objectives": "1. Develop a regional 3D groundwater flow model using MODFLOW. 2. Calibrate model with 5 years of monitoring well data. 3. Simulate drawdown cones for current and projected mining depths. 4. Estimate post-closure water table recovery timelines.",
+    "methodology": "MODFLOW model setup covering a 25 km radius around the mine. Calibration using observed water levels from 18 monitoring wells. Scenario simulations for mining depths up to 480m. Recovery simulations for 10, 20, and 30-year post-closure periods.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2023-015",
+    "title": "Predictive Maintenance of Longwall Shearer Components Using Vibration Signal Analysis and Machine Learning",
+    "research_area": "Automation in Mining",
+    "year": 2023,
+    "institution": "VNIT Nagpur",
+    "abstract": "A predictive maintenance system for longwall mining shearer gearbox and cutting drum components, using vibration sensor data and machine learning classifiers to detect early-stage bearing wear and gear faults before catastrophic failure.",
+    "objectives": "1. Install vibration sensors on shearer gearbox components at an underground mine. 2. Build a labeled fault dataset using vibration signatures and maintenance logs. 3. Train classification models (SVM, Random Forest, CNN on spectrograms) for fault detection. 4. Estimate remaining useful life (RUL) for key components.",
+    "methodology": "Tri-axial accelerometers installed on shearer gearbox at an underground longwall face. 6 months of continuous vibration data collected, labeled using maintenance records. Spectrogram-based CNN and classical ML models compared. RUL estimation using degradation curve fitting.",
+    "approved": 0
+  },
+  {
+    "id": "PROP-2024-002",
+    "title": "Large Language Model Based Automated Drafting of Mine Closure Plans from Site Survey Data",
+    "research_area": "Environmental Rehabilitation",
+    "year": 2024,
+    "institution": "IIT Dhanbad",
+    "abstract": "A retrieval-augmented LLM system that automatically drafts mine closure plan documents compliant with MoC guidelines, by ingesting site survey reports, land-use data, and regulatory templates, reducing drafting time for closure documentation.",
+    "objectives": "1. Build a RAG pipeline over MoC mine closure guidelines and templates. 2. Develop an extraction module for site survey reports (land use, water bodies, infrastructure). 3. Generate draft closure plan sections using an LLM with guideline grounding. 4. Evaluate draft quality against expert-prepared closure plans.",
+    "methodology": "Corpus of MoC closure guidelines and 10 historical closure plans embedded in a vector database. Site survey data extraction using OCR and rule-based parsers. GPT-4 based generation with RAG grounding. Evaluation via expert scoring rubric comparing drafts to gold-standard plans.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2024-008",
+    "title": "Optimization of Blasting Parameters Using Genetic Algorithm to Minimize Fly Rock and Ground Vibration in Opencast Mines",
+    "research_area": "Mine Safety",
+    "year": 2024,
+    "institution": "ISM Dhanbad",
+    "abstract": "A genetic algorithm based optimization framework for selecting blast design parameters (hole diameter, spacing, burden, delay timing) to simultaneously minimize fly rock distance and peak particle velocity (ground vibration), validated through field blast trials.",
+    "objectives": "1. Develop empirical models for fly rock distance and PPV based on blast design parameters. 2. Formulate a multi-objective genetic algorithm to optimize blast parameters. 3. Conduct field validation blasts at an opencast mine. 4. Develop a blast design recommendation tool for mine planners.",
+    "methodology": "Historical blast data (50+ blasts) from two opencast mines used to fit empirical PPV and fly rock models. NSGA-II genetic algorithm implemented in Python for multi-objective optimization. Field validation blasts conducted with high-speed cameras and seismographs. Recommendation tool built as a desktop application.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2024-013",
+    "title": "Carbon Sequestration Potential Assessment of Reclaimed Mine Land Through Afforestation: A Remote Sensing and Soil Carbon Study",
+    "research_area": "Environmental Rehabilitation",
+    "year": 2024,
+    "institution": "Forest Research Institute, Dehradun",
+    "abstract": "This study quantifies carbon sequestration achieved through afforestation programs on reclaimed mine land over a 15-year period, combining remote sensing-based biomass estimation with field soil organic carbon measurements to develop a sequestration rate model for different plantation species.",
+    "objectives": "1. Map afforestation extent and age on reclaimed lands using Landsat time-series. 2. Estimate above-ground biomass using allometric equations and field plots. 3. Measure soil organic carbon at varying depths and plantation ages. 4. Develop species-wise carbon sequestration rate curves.",
+    "methodology": "Landsat NDVI time-series analysis (2009-2024) for plantation age mapping. Field biomass plots (60 plots, 5 species) with allometric biomass equations. Soil sampling at 0-30cm and 30-60cm depths analyzed for organic carbon. Sequestration rate curves fitted using non-linear regression.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2025-001",
+    "title": "Development of a Digital Twin Platform for Real-Time Ventilation Network Optimization in Underground Coal Mines",
+    "research_area": "Mine Safety",
+    "year": 2025,
+    "institution": "IIT (ISM) Dhanbad",
+    "abstract": "A digital twin platform that models the underground mine ventilation network in real time using sensor data (airflow, gas concentration, fan status) and recommends ventilation adjustments to maintain safe atmospheric conditions while minimizing power consumption of main fans.",
+    "objectives": "1. Build a network model of mine ventilation airways calibrated with field surveys. 2. Integrate real-time sensor feeds (airflow, CH4, CO2, temperature) into the model. 3. Develop an optimization algorithm for fan speed/regulator settings. 4. Pilot deployment with live dashboard at an underground mine.",
+    "methodology": "Ventilation network simulated using VnetPC software, calibrated with field anemometer surveys. Real-time sensor integration via SCADA/PLC interfacing. Optimization using linear programming for airflow distribution subject to safety constraints. Pilot at an ECL underground mine with a web dashboard.",
+    "approved": 1
+  },
+  {
+    "id": "PROP-2025-006",
+    "title": "Synthetic Data Generation and Machine Learning Pipeline for Predicting Subsidence Above Abandoned Underground Workings",
+    "research_area": "Mine Safety",
+    "year": 2025,
+    "institution": "NIT Rourkela",
+    "abstract": "A machine learning approach to predict surface subsidence magnitude and timing above abandoned bord-and-pillar workings, using a combination of historical subsidence records and synthetic data generated through numerical modeling to overcome limited real-world data availability.",
+    "objectives": "1. Compile historical subsidence event records from abandoned workings. 2. Generate synthetic subsidence scenarios using finite element modeling across varying depth-to-extraction ratios. 3. Train ML models on combined real+synthetic data to predict subsidence magnitude and time-to-onset. 4. Validate predictions against known subsidence events not used in training.",
+    "methodology": "Historical subsidence database compiled from 12 sites. Finite element modeling (RS2/Phase2) used to generate ~500 synthetic scenarios varying depth, extraction height, and pillar size. Gradient boosting models trained on combined dataset. Hold-out validation on 4 independent sites.",
+    "approved": 0
+  }
+]
