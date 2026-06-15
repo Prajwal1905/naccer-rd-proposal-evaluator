@@ -17,7 +17,6 @@ RESEARCH_AREAS = [
 ]
 
 # Priority weighting roughly aligned with cil_moc_priority_areas.md
-
 AREA_PRIORITY_WEIGHT = {
     "Mine Safety": 0.85,
     "Environmental Rehabilitation": 0.80,
@@ -32,7 +31,7 @@ AREA_PRIORITY_WEIGHT = {
 INSTITUTION_TYPES = ["academic", "cil_psu", "industry"]
 INSTITUTION_WEIGHT = {"academic": 0.65, "cil_psu": 0.75, "industry": 0.55}
 
-N_SAMPLES = 400
+N_SAMPLES = 800
 
 # Budget ceilings per institution type, per st_funding_guidelines.md
 TPC_CEILING = {"academic": 200.0, "cil_psu": 350.0, "industry": 350.0}
@@ -55,29 +54,34 @@ def sample_proposal():
 
     num_objectives = random.randint(2, 7)
 
-    # Approval probability model 
-    prob = AREA_PRIORITY_WEIGHT[area] * 0.4
-    prob += INSTITUTION_WEIGHT[institution_type] * 0.25
+    # Base probability driven mainly by priority area (stronger weight)
+    prob = AREA_PRIORITY_WEIGHT[area] * 0.6
+    prob += INSTITUTION_WEIGHT[institution_type] * 0.3
 
-    # Penalize over-ceiling requests
+    # Penalize over-ceiling requests more sharply
     if requested_amount_lakhs > ceiling:
         over_ratio = requested_amount_lakhs / ceiling
-        prob -= min(0.35, (over_ratio - 1) * 0.6)
+        prob -= min(0.5, (over_ratio - 1) * 1.2)
+    else:
+        # Bonus for requesting a "reasonable" amount (30-80% of ceiling)
+        ratio = requested_amount_lakhs / ceiling
+        if 0.3 <= ratio <= 0.8:
+            prob += 0.08
 
-    # Penalize very long durations (>36 months) per guideline Section 2.2
+    # Penalize durations outside the normal 12-36 month range
     if duration_months > 36:
-        prob -= 0.10
+        prob -= 0.15
     elif duration_months < 12:
-        prob -= 0.05
+        prob -= 0.10
 
-    # Slight bonus for a focused objective count (3-5 sweet spot)
+    # Bonus for a focused objective count (3-5 sweet spot)
     if 3 <= num_objectives <= 5:
-        prob += 0.05
+        prob += 0.08
     elif num_objectives >= 7:
-        prob -= 0.05
+        prob -= 0.08
 
-    # Random noise to avoid a perfectly deterministic relationship
-    prob += random.uniform(-0.12, 0.12)
+    # Reduced random noise so the underlying signal dominates
+    prob += random.uniform(-0.06, 0.06)
     prob = max(0.02, min(0.98, prob))
 
     approved = 1 if random.random() < prob else 0
