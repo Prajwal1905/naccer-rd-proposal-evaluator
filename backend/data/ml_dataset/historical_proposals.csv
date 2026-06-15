@@ -1,15 +1,15 @@
 research_area,requested_amount_lakhs,duration_months,institution_type,num_objectives,approved
 Environmental Rehabilitation,45.1,24,academic,2,0
-Environmental Rehabilitation,92.2,12,cil_psu,6,0
+Environmental Rehabilitation,92.2,12,cil_psu,6,1
 Mine Waste Utilization,176.5,36,academic,3,1
-Automation in Mining,36.7,48,academic,2,0
-Coal Bed Methane,61.2,42,industry,5,0
+Automation in Mining,36.7,48,academic,2,1
+Coal Bed Methane,61.2,42,industry,5,1
 Coal Quality Assessment,238.2,42,cil_psu,4,0
-Environmental Rehabilitation,85.7,30,academic,4,0
+Environmental Rehabilitation,85.7,30,academic,4,1
 Environmental Rehabilitation,100.8,18,cil_psu,5,0
 Underground Coal Gasification,38.5,48,cil_psu,2,1
 Environmental Rehabilitation,237.8,36,academic,7,0
-General IT Infrastructure,121.0,18,academic,4,0
+General IT Infrastructure,121.0,18,academic,4,1
 Mine Waste Utilization,36.4,18,academic,2,1
 Automation in Mining,147.0,30,cil_psu,6,1
 Mine Safety,197.2,12,cil_psu,4,1
@@ -17,22 +17,22 @@ Coal Bed Methane,150.0,30,academic,7,0
 Automation in Mining,412.7,12,cil_psu,7,1
 Coal Quality Assessment,543.7,36,cil_psu,2,0
 Environmental Rehabilitation,99.0,48,industry,3,0
-Environmental Rehabilitation,271.0,48,cil_psu,3,0
+Environmental Rehabilitation,271.0,48,cil_psu,3,1
 Automation in Mining,193.6,48,academic,6,0
 Coal Bed Methane,98.9,42,academic,6,1
-Environmental Rehabilitation,125.9,36,academic,2,0
-Underground Coal Gasification,208.5,12,academic,3,0
+Environmental Rehabilitation,125.9,36,academic,2,1
+Underground Coal Gasification,208.5,12,academic,3,1
 Automation in Mining,100.2,36,cil_psu,5,1
 Environmental Rehabilitation,174.1,24,cil_psu,7,0
-Environmental Rehabilitation,175.1,42,academic,3,0
+Environmental Rehabilitation,175.1,42,academic,3,1
 Automation in Mining,177.4,24,academic,2,0
-Environmental Rehabilitation,194.4,36,academic,3,0
+Environmental Rehabilitation,194.4,36,academic,3,1
 Underground Coal Gasification,20.7,12,industry,5,0
 General IT Infrastructure,319.5,42,academic,6,0
 Underground Coal Gasification,117.6,12,academic,7,1
-General IT Infrastructure,38.8,48,cil_psu,6,0
-Environmental Rehabilitation,330.7,18,cil_psu,6,0
-Environmental Rehabilitation,76.9,36,academic,4,0
+General IT Infrastructure,38.8,48,cil_psu,6,1
+Environmental Rehabilitation,330.7,18,cil_psu,6,1
+Environmental Rehabilitation,76.9,36,academic,4,1
 Underground Coal Gasification,74.0,18,academic,4,0
 Mine Safety,208.8,36,academic,3,1
 Coal Quality Assessment,72.1,18,industry,6,0
@@ -41,8 +41,8 @@ Automation in Mining,81.7,36,academic,7,1
 General IT Infrastructure,134.2,48,academic,4,0
 Automation in Mining,165.8,24,cil_psu,7,1
 Environmental Rehabilitation,464.6,42,industry,4,1
-Automation in Mining,295.5,24,academic,2,1
-Underground Coal Gasification,311.8,24,cil_psu,5,0
+Automation in Mining,295.5,24,academic,2,0
+Underground Coal Gasification,311.8,24,cil_psu,5,1
 Underground Coal Gasification,310.9,48,industry,2,0
 Mine Waste Utilization,101.9,48,industry,3,1
 Mine Safety,323.1,18,industry,4,0
@@ -61,24 +61,24 @@ Mine Waste Utilization,143.8,18,academic,2,1
 General IT Infrastructure,214.6,18,academic,3,0
 Coal Quality Assessment,257.4,30,industry,6,0
 General IT Infrastructure,444.5,42,industry,3,0
-General IT Infrastructure,255.5,24,cil_psu,3,0
+General IT Infrastructure,255.5,24,cil_psu,3,1
 Environmental Rehabilitation,47.5,18,academic,3,1
 General IT Infrastructure,90.1,18,academic,6,1
-Mine Waste Utilization,90.2,24,academic,5,0
+Mine Waste Utilization,90.2,24,academic,5,1
 Underground Coal Gasification,25.2,24,academic,4,0
 Automation in Mining,462.2,18,industry,5,0
 Environmental Rehabilitation,388.2,18,cil_psu,4,1
 Coal Quality Assessment,191.2,30,academic,5,1
 Mine Safety,423.5,12,cil_psu,7,0
 Mine Safety,26.7,18,cil_psu,3,1
-Environmental Rehabilitation,104.6,18,cil_psu,4,0
-Environmental Rehabilitation,372.7,18,cil_psu,2,0
+Environmental Rehabilitation,104.6,18,cil_psu,4,1
+Environmental Rehabilitation,372.7,18,cil_psu,2,1
 Mine Waste Utilization,126.6,42,academic,7,0
 Coal Bed Methane,282.8,36,industry,6,1
 Mine Waste Utilization,132.6,12,cil_psu,5,1
 Coal Quality Assessment,70.5,48,cil_psu,3,0
 Coal Bed Methane,173.4,36,cil_psu,7,1
-Underground Coal Gasification,168.8,12,industry,5,0
+Underground Coal Gasification,168.8,12,industry,5,1
 Coal Quality Assessment,107.8,48,academic,4,1
 Coal Bed Methane,368.0,36,cil_psu,7,0
 Underground Coal Gasification,167.9,42,cil_psu,2,1
@@ -88,28 +88,28 @@ Automation in Mining,150.4,42,academic,6,0
 Underground Coal Gasification,22.5,24,academic,6,1
 Mine Safety,484.0,42,cil_psu,5,1
 Coal Bed Methane,193.8,30,academic,4,1
-Environmental Rehabilitation,143.6,12,academic,3,0
+Environmental Rehabilitation,143.6,12,academic,3,1
 Coal Bed Methane,157.6,18,academic,6,0
-Mine Waste Utilization,125.9,30,academic,5,0
+Mine Waste Utilization,125.9,30,academic,5,1
 Environmental Rehabilitation,107.3,18,industry,2,1
 Environmental Rehabilitation,126.9,30,academic,4,1
-Coal Bed Methane,97.0,30,cil_psu,4,0
+Coal Bed Methane,97.0,30,cil_psu,4,1
 Underground Coal Gasification,46.8,36,academic,4,1
 Automation in Mining,207.8,36,cil_psu,4,1
 Coal Bed Methane,183.0,24,cil_psu,2,0
 Coal Quality Assessment,337.4,12,cil_psu,6,1
-Coal Bed Methane,175.3,48,cil_psu,7,0
+Coal Bed Methane,175.3,48,cil_psu,7,1
 Mine Waste Utilization,448.7,30,cil_psu,5,0
-Automation in Mining,139.3,42,academic,5,0
+Automation in Mining,139.3,42,academic,5,1
 General IT Infrastructure,194.6,24,academic,5,0
 Mine Safety,37.9,36,cil_psu,6,0
 General IT Infrastructure,63.2,18,cil_psu,4,0
 Environmental Rehabilitation,63.1,42,academic,3,1
-Mine Waste Utilization,255.4,48,academic,2,1
-Coal Bed Methane,179.2,24,cil_psu,5,0
+Mine Waste Utilization,255.4,48,academic,2,0
+Coal Bed Methane,179.2,24,cil_psu,5,1
 Mine Waste Utilization,178.3,36,academic,2,0
 Mine Waste Utilization,167.7,48,academic,4,0
-General IT Infrastructure,133.9,30,industry,6,0
+General IT Infrastructure,133.9,30,industry,6,1
 Coal Quality Assessment,146.4,42,industry,5,0
 Mine Waste Utilization,137.4,42,academic,3,1
 Coal Quality Assessment,52.9,48,industry,5,1
@@ -117,16 +117,16 @@ Automation in Mining,240.6,48,academic,7,1
 Coal Quality Assessment,334.9,48,industry,7,0
 Mine Safety,323.9,18,cil_psu,3,1
 Environmental Rehabilitation,443.2,42,cil_psu,7,1
-Coal Quality Assessment,162.1,24,cil_psu,3,0
+Coal Quality Assessment,162.1,24,cil_psu,3,1
 Automation in Mining,88.9,12,academic,7,0
-Automation in Mining,66.0,42,academic,2,0
+Automation in Mining,66.0,42,academic,2,1
 Coal Bed Methane,331.9,18,cil_psu,6,0
-Coal Bed Methane,89.2,24,academic,5,0
+Coal Bed Methane,89.2,24,academic,5,1
 Coal Quality Assessment,342.7,42,cil_psu,7,1
 Mine Safety,318.4,42,industry,4,1
 Coal Quality Assessment,142.0,18,academic,7,0
-Automation in Mining,121.9,42,cil_psu,5,0
-Automation in Mining,94.8,24,academic,3,0
+Automation in Mining,121.9,42,cil_psu,5,1
+Automation in Mining,94.8,24,academic,3,1
 Coal Quality Assessment,104.8,24,cil_psu,5,1
 Coal Quality Assessment,379.6,30,industry,3,0
 Mine Waste Utilization,49.8,48,industry,5,0
@@ -137,10 +137,10 @@ General IT Infrastructure,216.3,18,academic,5,0
 Mine Waste Utilization,156.9,42,cil_psu,2,0
 Coal Bed Methane,100.0,24,academic,3,1
 Coal Quality Assessment,151.4,42,cil_psu,3,0
-General IT Infrastructure,127.5,18,academic,2,0
-Automation in Mining,272.5,18,cil_psu,3,0
+General IT Infrastructure,127.5,18,academic,2,1
+Automation in Mining,272.5,18,cil_psu,3,1
 Underground Coal Gasification,127.3,18,academic,4,1
-Automation in Mining,238.1,48,cil_psu,2,0
+Automation in Mining,238.1,48,cil_psu,2,1
 Underground Coal Gasification,37.3,12,cil_psu,7,1
 Environmental Rehabilitation,126.9,48,academic,5,0
 Mine Safety,119.5,48,cil_psu,7,1
@@ -150,33 +150,33 @@ Coal Bed Methane,162.8,36,academic,2,0
 Underground Coal Gasification,168.9,18,academic,5,1
 Mine Waste Utilization,47.5,24,academic,5,0
 Environmental Rehabilitation,166.1,42,academic,6,0
-Coal Quality Assessment,239.6,30,cil_psu,5,0
+Coal Quality Assessment,239.6,30,cil_psu,5,1
 Coal Bed Methane,187.4,24,cil_psu,3,1
-Environmental Rehabilitation,157.3,36,academic,6,0
+Environmental Rehabilitation,157.3,36,academic,6,1
 Mine Safety,108.3,42,cil_psu,3,0
 Coal Quality Assessment,268.0,18,academic,5,0
 Mine Safety,95.6,36,academic,4,1
-Coal Quality Assessment,311.5,36,cil_psu,3,0
+Coal Quality Assessment,311.5,36,cil_psu,3,1
 Environmental Rehabilitation,129.3,42,academic,5,0
 Environmental Rehabilitation,142.1,12,academic,5,1
 Underground Coal Gasification,56.8,36,academic,3,0
 Coal Bed Methane,97.5,12,academic,3,0
 Coal Quality Assessment,98.5,48,academic,5,0
-Mine Waste Utilization,115.5,42,cil_psu,5,0
-General IT Infrastructure,298.7,24,industry,3,0
-Environmental Rehabilitation,59.9,24,academic,3,0
+Mine Waste Utilization,115.5,42,cil_psu,5,1
+General IT Infrastructure,298.7,24,industry,3,1
+Environmental Rehabilitation,59.9,24,academic,3,1
 Underground Coal Gasification,336.2,24,industry,7,1
 Automation in Mining,156.8,18,academic,7,0
 General IT Infrastructure,100.8,36,academic,6,0
 Coal Quality Assessment,165.1,42,industry,5,1
-Coal Bed Methane,122.4,24,cil_psu,5,0
+Coal Bed Methane,122.4,24,cil_psu,5,1
 Coal Bed Methane,210.8,48,academic,6,0
 Mine Safety,53.9,48,academic,6,1
 Mine Safety,241.2,48,academic,7,0
 Mine Safety,262.9,30,academic,6,0
 Coal Bed Methane,127.6,48,academic,7,1
-Environmental Rehabilitation,258.8,30,cil_psu,7,0
-Automation in Mining,185.0,36,academic,4,0
+Environmental Rehabilitation,258.8,30,cil_psu,7,1
+Automation in Mining,185.0,36,academic,4,1
 Mine Waste Utilization,237.1,42,academic,5,0
 Automation in Mining,559.4,48,cil_psu,6,0
 Coal Quality Assessment,58.6,24,academic,5,0
@@ -186,7 +186,7 @@ Automation in Mining,243.2,12,cil_psu,3,1
 General IT Infrastructure,165.6,18,academic,5,1
 General IT Infrastructure,110.5,24,academic,5,0
 Automation in Mining,308.5,12,industry,6,0
-Environmental Rehabilitation,100.9,48,academic,6,0
+Environmental Rehabilitation,100.9,48,academic,6,1
 Underground Coal Gasification,437.1,24,industry,5,1
 Environmental Rehabilitation,37.8,12,academic,7,0
 Automation in Mining,169.6,48,academic,7,0
@@ -200,9 +200,9 @@ Mine Safety,51.5,24,academic,7,0
 Automation in Mining,331.4,12,industry,2,1
 Underground Coal Gasification,458.2,24,industry,6,1
 Underground Coal Gasification,175.8,48,academic,4,0
-Mine Waste Utilization,335.6,42,industry,4,0
+Mine Waste Utilization,335.6,42,industry,4,1
 General IT Infrastructure,164.2,48,academic,7,0
-Automation in Mining,128.2,24,cil_psu,4,0
+Automation in Mining,128.2,24,cil_psu,4,1
 Mine Waste Utilization,27.6,30,academic,4,1
 Mine Safety,112.4,42,academic,7,0
 Automation in Mining,31.5,42,industry,2,0
@@ -212,7 +212,7 @@ Automation in Mining,214.1,30,academic,4,1
 Coal Bed Methane,64.8,30,cil_psu,2,0
 General IT Infrastructure,299.0,48,industry,4,0
 Coal Bed Methane,254.2,48,industry,7,0
-Underground Coal Gasification,62.6,18,academic,5,0
+Underground Coal Gasification,62.6,18,academic,5,1
 Coal Quality Assessment,179.2,36,academic,2,0
 General IT Infrastructure,209.7,48,cil_psu,3,0
 General IT Infrastructure,178.0,36,academic,6,1
@@ -228,7 +228,7 @@ Coal Quality Assessment,173.9,12,cil_psu,4,1
 Mine Safety,250.2,30,academic,3,0
 Coal Quality Assessment,112.7,18,academic,5,1
 Environmental Rehabilitation,99.4,36,industry,6,1
-General IT Infrastructure,175.3,48,cil_psu,6,0
+General IT Infrastructure,175.3,48,cil_psu,6,1
 Automation in Mining,153.1,42,industry,2,0
 Underground Coal Gasification,110.8,24,academic,6,0
 Environmental Rehabilitation,163.1,12,academic,4,1
@@ -240,15 +240,15 @@ Mine Safety,514.4,24,cil_psu,6,0
 General IT Infrastructure,159.4,42,academic,5,0
 Mine Safety,26.2,42,cil_psu,4,1
 Underground Coal Gasification,104.9,48,academic,7,0
-Underground Coal Gasification,144.4,42,cil_psu,3,0
+Underground Coal Gasification,144.4,42,cil_psu,3,1
 Coal Quality Assessment,232.3,48,cil_psu,7,0
 Underground Coal Gasification,195.1,24,academic,4,0
 General IT Infrastructure,188.2,24,academic,7,1
 Mine Waste Utilization,335.0,30,industry,3,1
-Environmental Rehabilitation,154.5,30,academic,3,0
-Coal Bed Methane,63.1,36,academic,2,0
+Environmental Rehabilitation,154.5,30,academic,3,1
+Coal Bed Methane,63.1,36,academic,2,1
 Underground Coal Gasification,105.0,30,academic,7,1
-Automation in Mining,55.9,30,academic,4,0
+Automation in Mining,55.9,30,academic,4,1
 Environmental Rehabilitation,258.6,18,cil_psu,2,1
 Automation in Mining,433.4,12,industry,5,0
 Coal Bed Methane,218.9,12,industry,4,0
@@ -261,7 +261,7 @@ Mine Safety,153.8,30,cil_psu,6,0
 Coal Bed Methane,412.0,42,cil_psu,6,0
 General IT Infrastructure,244.8,42,academic,7,0
 Underground Coal Gasification,308.1,42,cil_psu,2,0
-Coal Quality Assessment,169.2,36,academic,6,0
+Coal Quality Assessment,169.2,36,academic,6,1
 Automation in Mining,142.5,36,academic,7,1
 General IT Infrastructure,157.1,30,industry,6,0
 Coal Bed Methane,21.0,30,cil_psu,3,1
@@ -269,15 +269,15 @@ Coal Quality Assessment,546.3,36,cil_psu,2,0
 Coal Bed Methane,135.5,48,academic,7,0
 Mine Waste Utilization,142.9,30,academic,7,1
 Coal Quality Assessment,42.9,36,academic,3,0
-Coal Bed Methane,115.7,42,academic,3,0
+Coal Bed Methane,115.7,42,academic,3,1
 Coal Bed Methane,25.8,42,academic,7,0
 Mine Safety,26.0,12,academic,6,0
 Underground Coal Gasification,198.1,30,cil_psu,2,0
 Underground Coal Gasification,210.6,42,industry,7,1
-Automation in Mining,119.2,36,industry,2,0
-Automation in Mining,35.5,30,cil_psu,4,0
+Automation in Mining,119.2,36,industry,2,1
+Automation in Mining,35.5,30,cil_psu,4,1
 Coal Quality Assessment,144.2,30,cil_psu,6,0
-Coal Bed Methane,321.9,18,industry,6,0
+Coal Bed Methane,321.9,18,industry,6,1
 Automation in Mining,136.4,24,academic,5,1
 Underground Coal Gasification,128.5,30,academic,2,0
 Underground Coal Gasification,236.4,48,academic,2,0
@@ -285,11 +285,11 @@ Environmental Rehabilitation,100.1,48,cil_psu,6,1
 Underground Coal Gasification,173.9,48,cil_psu,7,1
 General IT Infrastructure,256.3,48,academic,4,0
 Mine Waste Utilization,46.3,48,academic,4,0
-Mine Waste Utilization,88.4,18,academic,3,0
+Mine Waste Utilization,88.4,18,academic,3,1
 Coal Quality Assessment,150.2,48,academic,7,1
 Coal Quality Assessment,53.1,42,academic,6,0
 Mine Safety,490.3,12,industry,2,0
-Underground Coal Gasification,111.0,18,academic,4,0
+Underground Coal Gasification,111.0,18,academic,4,1
 General IT Infrastructure,202.0,12,cil_psu,2,0
 Coal Bed Methane,97.5,48,academic,3,1
 Automation in Mining,166.7,36,academic,4,1
@@ -299,15 +299,15 @@ General IT Infrastructure,206.7,42,industry,2,0
 Underground Coal Gasification,122.0,48,academic,4,1
 Coal Bed Methane,79.2,36,industry,4,1
 Automation in Mining,326.5,42,cil_psu,4,1
-Mine Waste Utilization,269.4,36,cil_psu,3,0
+Mine Waste Utilization,269.4,36,cil_psu,3,1
 Environmental Rehabilitation,164.2,24,cil_psu,2,0
 Mine Waste Utilization,110.2,24,industry,5,1
 Mine Waste Utilization,88.4,42,academic,6,1
 Environmental Rehabilitation,161.1,18,academic,3,1
 Environmental Rehabilitation,157.0,24,academic,2,1
 General IT Infrastructure,28.7,36,cil_psu,4,0
-Coal Quality Assessment,148.0,12,industry,2,0
-Underground Coal Gasification,75.9,18,cil_psu,4,0
+Coal Quality Assessment,148.0,12,industry,2,1
+Underground Coal Gasification,75.9,18,cil_psu,4,1
 Environmental Rehabilitation,107.2,24,academic,2,0
 General IT Infrastructure,64.7,18,cil_psu,2,1
 Mine Waste Utilization,162.1,24,industry,7,1
@@ -319,16 +319,16 @@ Coal Bed Methane,96.2,42,academic,5,0
 General IT Infrastructure,323.7,36,cil_psu,7,1
 Coal Quality Assessment,230.6,48,cil_psu,2,1
 Coal Quality Assessment,197.0,36,academic,7,0
-Coal Quality Assessment,52.5,30,industry,3,0
+Coal Quality Assessment,52.5,30,industry,3,1
 Underground Coal Gasification,142.3,30,academic,7,1
-Mine Safety,193.1,24,academic,2,0
+Mine Safety,193.1,24,academic,2,1
 Coal Quality Assessment,113.8,30,academic,4,1
 General IT Infrastructure,147.9,24,academic,2,0
-Automation in Mining,77.6,42,industry,3,0
+Automation in Mining,77.6,42,industry,3,1
 General IT Infrastructure,53.5,30,academic,7,1
-Underground Coal Gasification,146.9,30,academic,3,0
+Underground Coal Gasification,146.9,30,academic,3,1
 Environmental Rehabilitation,389.3,48,cil_psu,4,1
-General IT Infrastructure,148.3,42,cil_psu,5,0
+General IT Infrastructure,148.3,42,cil_psu,5,1
 General IT Infrastructure,284.2,48,cil_psu,6,0
 Coal Quality Assessment,87.2,24,academic,3,1
 Automation in Mining,229.7,30,cil_psu,7,0
@@ -337,47 +337,47 @@ Mine Safety,193.5,18,academic,6,1
 General IT Infrastructure,50.1,48,academic,6,0
 Coal Bed Methane,50.3,18,academic,5,0
 General IT Infrastructure,108.4,12,cil_psu,6,1
-Mine Safety,346.6,30,cil_psu,2,0
+Mine Safety,346.6,30,cil_psu,2,1
 Underground Coal Gasification,82.7,12,academic,2,0
-Underground Coal Gasification,83.1,42,academic,7,0
-Automation in Mining,39.6,48,cil_psu,4,0
+Underground Coal Gasification,83.1,42,academic,7,1
+Automation in Mining,39.6,48,cil_psu,4,1
 Automation in Mining,123.1,42,academic,6,0
 Environmental Rehabilitation,185.4,48,academic,4,1
 Automation in Mining,64.6,42,academic,7,1
 Coal Bed Methane,229.1,30,cil_psu,2,0
 Coal Quality Assessment,20.4,30,academic,7,0
-Coal Quality Assessment,91.9,48,industry,5,0
+Coal Quality Assessment,91.9,48,industry,5,1
 Coal Quality Assessment,63.1,24,industry,5,0
 Mine Safety,102.7,42,academic,2,1
 General IT Infrastructure,143.9,30,academic,3,1
-Coal Bed Methane,86.9,24,academic,7,0
-Coal Bed Methane,236.3,48,cil_psu,7,0
+Coal Bed Methane,86.9,24,academic,7,1
+Coal Bed Methane,236.3,48,cil_psu,7,1
 Environmental Rehabilitation,100.1,18,academic,2,0
 Mine Waste Utilization,146.4,30,cil_psu,7,1
-Coal Quality Assessment,288.4,18,industry,3,0
-Environmental Rehabilitation,74.2,12,cil_psu,4,0
+Coal Quality Assessment,288.4,18,industry,3,1
+Environmental Rehabilitation,74.2,12,cil_psu,4,1
 Automation in Mining,303.8,36,industry,2,1
-Environmental Rehabilitation,161.7,30,cil_psu,3,0
+Environmental Rehabilitation,161.7,30,cil_psu,3,1
 Underground Coal Gasification,114.0,36,cil_psu,7,0
 Coal Bed Methane,154.6,36,academic,4,0
 Underground Coal Gasification,134.9,12,academic,2,0
 Coal Quality Assessment,296.9,18,industry,5,0
 General IT Infrastructure,213.8,48,industry,2,1
 Mine Safety,227.4,30,industry,6,1
-Mine Waste Utilization,47.5,36,academic,2,0
+Mine Waste Utilization,47.5,36,academic,2,1
 Underground Coal Gasification,148.9,18,industry,7,0
 Environmental Rehabilitation,172.4,30,academic,2,0
 Environmental Rehabilitation,139.9,36,academic,7,1
-Automation in Mining,134.4,18,cil_psu,6,0
+Automation in Mining,134.4,18,cil_psu,6,1
 Automation in Mining,68.4,42,academic,2,1
 Mine Waste Utilization,195.5,12,academic,7,0
 Coal Quality Assessment,86.2,48,academic,4,0
-Environmental Rehabilitation,174.6,36,academic,2,0
+Environmental Rehabilitation,174.6,36,academic,2,1
 Mine Waste Utilization,530.1,18,industry,6,0
-Mine Waste Utilization,149.7,18,academic,4,0
+Mine Waste Utilization,149.7,18,academic,4,1
 Environmental Rehabilitation,285.4,12,cil_psu,2,1
 General IT Infrastructure,128.0,48,industry,6,0
-Coal Bed Methane,100.1,24,cil_psu,4,0
+Coal Bed Methane,100.1,24,cil_psu,4,1
 Underground Coal Gasification,100.9,36,cil_psu,2,1
 Coal Quality Assessment,549.7,42,cil_psu,2,0
 Coal Bed Methane,250.4,36,academic,2,1
@@ -385,9 +385,9 @@ Coal Bed Methane,262.4,18,academic,7,0
 Environmental Rehabilitation,290.6,36,cil_psu,2,1
 Automation in Mining,311.1,24,academic,5,0
 Coal Quality Assessment,56.5,18,academic,6,1
-General IT Infrastructure,84.5,30,academic,3,0
+General IT Infrastructure,84.5,30,academic,3,1
 Environmental Rehabilitation,168.7,48,academic,7,1
-Coal Quality Assessment,84.0,42,academic,6,0
+Coal Quality Assessment,84.0,42,academic,6,1
 Automation in Mining,266.7,30,academic,6,0
 Automation in Mining,196.9,12,academic,3,1
 Environmental Rehabilitation,365.7,24,cil_psu,2,0
@@ -399,3 +399,403 @@ Underground Coal Gasification,26.4,48,cil_psu,5,1
 General IT Infrastructure,89.9,36,academic,3,0
 Mine Safety,286.9,48,industry,5,0
 Underground Coal Gasification,99.6,12,industry,6,0
+Mine Safety,344.3,18,cil_psu,5,0
+Automation in Mining,152.9,36,academic,4,1
+Coal Quality Assessment,333.0,36,industry,5,1
+Mine Safety,23.6,18,academic,5,0
+Underground Coal Gasification,323.2,24,industry,4,1
+Automation in Mining,140.4,48,cil_psu,2,0
+Mine Waste Utilization,65.0,24,cil_psu,3,1
+General IT Infrastructure,205.5,18,cil_psu,6,1
+Automation in Mining,42.9,42,academic,7,0
+Mine Waste Utilization,356.8,48,industry,6,0
+Underground Coal Gasification,379.5,12,cil_psu,7,1
+Coal Quality Assessment,140.6,12,academic,7,1
+Coal Bed Methane,66.2,42,academic,2,1
+General IT Infrastructure,453.5,18,cil_psu,5,0
+General IT Infrastructure,246.8,36,cil_psu,3,0
+Mine Safety,38.9,24,academic,4,1
+Environmental Rehabilitation,345.1,12,cil_psu,5,1
+Automation in Mining,53.4,30,cil_psu,3,1
+Coal Bed Methane,36.4,24,cil_psu,6,1
+Mine Safety,168.3,30,academic,7,1
+Mine Safety,34.7,42,academic,2,1
+General IT Infrastructure,199.6,24,industry,3,1
+Automation in Mining,67.4,24,academic,4,1
+Environmental Rehabilitation,94.5,24,academic,6,1
+Mine Waste Utilization,494.3,30,industry,5,0
+Coal Bed Methane,110.4,48,academic,6,0
+Automation in Mining,190.8,48,academic,3,0
+Automation in Mining,252.2,12,academic,7,0
+Coal Quality Assessment,148.1,48,industry,5,0
+General IT Infrastructure,225.6,12,industry,6,1
+Automation in Mining,193.7,36,academic,2,1
+Environmental Rehabilitation,133.5,48,cil_psu,5,1
+General IT Infrastructure,131.3,24,academic,7,1
+Coal Quality Assessment,323.9,12,cil_psu,4,0
+Coal Bed Methane,145.3,48,academic,2,1
+Coal Bed Methane,125.9,30,industry,7,0
+Underground Coal Gasification,107.2,48,academic,6,0
+Automation in Mining,44.4,42,academic,6,1
+Underground Coal Gasification,102.3,18,industry,5,1
+Underground Coal Gasification,91.4,48,academic,2,1
+General IT Infrastructure,449.7,18,cil_psu,6,0
+Coal Bed Methane,29.1,42,cil_psu,2,0
+Underground Coal Gasification,88.2,42,industry,7,1
+Mine Safety,128.2,18,academic,2,1
+Coal Bed Methane,159.9,42,cil_psu,5,1
+Underground Coal Gasification,132.2,42,academic,6,0
+Coal Quality Assessment,118.5,36,cil_psu,2,1
+Coal Bed Methane,236.5,48,cil_psu,7,1
+Underground Coal Gasification,520.1,48,industry,5,0
+Mine Safety,158.1,24,cil_psu,5,1
+Underground Coal Gasification,116.2,42,academic,5,0
+Coal Bed Methane,204.2,48,industry,4,1
+Coal Bed Methane,80.4,36,cil_psu,7,0
+Underground Coal Gasification,250.5,42,academic,4,0
+General IT Infrastructure,229.4,30,industry,6,1
+Underground Coal Gasification,194.8,48,cil_psu,5,0
+Automation in Mining,207.9,24,industry,5,0
+Automation in Mining,345.6,30,cil_psu,4,1
+Coal Bed Methane,157.6,48,academic,5,0
+Automation in Mining,161.6,42,cil_psu,5,1
+Underground Coal Gasification,508.9,12,cil_psu,6,0
+Underground Coal Gasification,38.5,24,academic,6,1
+Mine Safety,113.7,24,academic,6,0
+Automation in Mining,53.9,30,academic,5,1
+Automation in Mining,50.4,12,academic,4,0
+Mine Waste Utilization,225.6,24,industry,6,1
+Mine Safety,88.4,12,academic,6,1
+Underground Coal Gasification,158.9,42,cil_psu,2,1
+Automation in Mining,131.2,12,academic,4,1
+Underground Coal Gasification,192.6,48,cil_psu,3,1
+Automation in Mining,282.6,30,academic,5,1
+Environmental Rehabilitation,183.1,48,industry,2,1
+Environmental Rehabilitation,346.3,42,industry,4,1
+Automation in Mining,284.5,48,industry,4,1
+Mine Safety,50.7,18,academic,4,0
+Coal Bed Methane,133.1,12,industry,2,0
+Coal Bed Methane,518.0,42,industry,7,0
+Automation in Mining,527.3,12,cil_psu,2,0
+General IT Infrastructure,130.0,30,academic,7,0
+Automation in Mining,94.0,30,academic,2,1
+Mine Safety,265.4,42,cil_psu,7,0
+Coal Quality Assessment,51.4,42,cil_psu,7,0
+Mine Waste Utilization,197.8,48,academic,2,0
+General IT Infrastructure,268.0,48,industry,4,0
+Mine Safety,153.1,36,cil_psu,3,1
+General IT Infrastructure,41.4,30,academic,5,1
+Mine Waste Utilization,168.7,36,academic,6,1
+Underground Coal Gasification,426.3,30,cil_psu,2,0
+Coal Quality Assessment,256.5,36,cil_psu,4,1
+Underground Coal Gasification,193.6,24,academic,4,1
+Environmental Rehabilitation,167.9,18,academic,7,1
+Underground Coal Gasification,102.3,48,academic,3,1
+Mine Waste Utilization,126.0,42,academic,5,1
+Automation in Mining,36.0,12,industry,5,1
+Automation in Mining,62.4,18,cil_psu,5,1
+Coal Quality Assessment,221.0,30,cil_psu,7,1
+Coal Quality Assessment,65.6,30,industry,6,0
+Coal Bed Methane,499.5,36,industry,6,0
+Coal Bed Methane,254.4,42,cil_psu,3,0
+Coal Quality Assessment,178.5,48,cil_psu,6,0
+Coal Bed Methane,192.5,30,industry,2,1
+Mine Safety,197.0,48,academic,7,0
+Coal Bed Methane,166.5,36,academic,2,0
+Underground Coal Gasification,188.6,36,cil_psu,7,0
+Mine Waste Utilization,237.5,48,academic,6,0
+Underground Coal Gasification,443.0,48,cil_psu,3,0
+Coal Quality Assessment,84.8,36,cil_psu,7,1
+Automation in Mining,77.4,12,industry,6,1
+Coal Bed Methane,299.2,18,cil_psu,2,0
+Automation in Mining,159.3,24,academic,7,0
+General IT Infrastructure,278.7,36,cil_psu,4,0
+Environmental Rehabilitation,197.2,18,cil_psu,2,0
+Coal Quality Assessment,155.5,24,academic,6,1
+Mine Safety,182.8,24,academic,6,1
+Mine Safety,282.7,24,cil_psu,2,1
+Coal Bed Methane,87.5,36,academic,6,1
+Underground Coal Gasification,220.1,12,academic,6,0
+Underground Coal Gasification,246.2,48,cil_psu,2,0
+Mine Waste Utilization,70.7,12,cil_psu,5,1
+Environmental Rehabilitation,32.7,48,academic,3,1
+General IT Infrastructure,148.5,30,cil_psu,2,0
+Environmental Rehabilitation,299.9,36,cil_psu,4,1
+Coal Bed Methane,164.4,24,cil_psu,5,1
+Automation in Mining,282.9,18,cil_psu,6,1
+Coal Bed Methane,486.1,48,cil_psu,2,0
+Environmental Rehabilitation,116.7,36,academic,2,0
+Coal Quality Assessment,217.1,42,academic,3,0
+Underground Coal Gasification,173.4,42,academic,6,0
+Coal Bed Methane,259.4,24,cil_psu,5,1
+Underground Coal Gasification,54.8,36,academic,5,1
+Coal Bed Methane,140.3,18,cil_psu,4,1
+Coal Quality Assessment,135.4,18,academic,4,1
+Coal Quality Assessment,275.7,30,industry,5,1
+Environmental Rehabilitation,314.1,48,industry,3,0
+Environmental Rehabilitation,228.4,12,cil_psu,6,1
+Underground Coal Gasification,315.0,36,industry,6,0
+Coal Quality Assessment,174.3,48,academic,3,1
+Mine Waste Utilization,172.6,12,academic,6,0
+Automation in Mining,121.8,18,academic,3,1
+Coal Quality Assessment,31.3,48,academic,4,0
+Coal Quality Assessment,204.8,30,academic,7,0
+Coal Bed Methane,208.2,24,industry,5,1
+Environmental Rehabilitation,396.8,30,cil_psu,5,0
+General IT Infrastructure,311.1,36,cil_psu,5,1
+Coal Bed Methane,128.4,18,academic,2,1
+Coal Quality Assessment,178.1,30,cil_psu,6,0
+Mine Safety,49.0,18,academic,7,0
+Automation in Mining,262.0,24,academic,5,0
+Mine Safety,113.5,42,industry,2,0
+General IT Infrastructure,155.6,18,industry,3,0
+Automation in Mining,259.0,36,cil_psu,4,1
+Environmental Rehabilitation,23.0,30,academic,6,1
+Mine Waste Utilization,177.0,36,industry,6,0
+Environmental Rehabilitation,128.6,42,academic,2,0
+Mine Waste Utilization,496.5,24,cil_psu,5,0
+Mine Waste Utilization,157.1,48,academic,7,1
+Coal Bed Methane,210.1,18,academic,6,1
+Underground Coal Gasification,124.0,42,academic,2,1
+Underground Coal Gasification,55.2,24,cil_psu,5,1
+Mine Waste Utilization,244.6,36,cil_psu,3,0
+General IT Infrastructure,65.7,36,academic,4,0
+Mine Waste Utilization,375.0,48,cil_psu,3,0
+Automation in Mining,80.9,36,academic,6,1
+Mine Safety,36.4,42,academic,3,1
+Environmental Rehabilitation,129.6,18,academic,7,0
+Coal Bed Methane,275.3,36,cil_psu,3,1
+Underground Coal Gasification,84.3,48,industry,6,0
+Automation in Mining,20.1,24,cil_psu,3,1
+Mine Waste Utilization,56.1,30,academic,2,1
+Environmental Rehabilitation,322.0,42,cil_psu,4,0
+Underground Coal Gasification,153.3,18,cil_psu,2,1
+Environmental Rehabilitation,332.5,36,cil_psu,6,0
+Coal Bed Methane,274.1,30,cil_psu,4,1
+General IT Infrastructure,58.4,48,industry,2,0
+Underground Coal Gasification,156.1,18,cil_psu,4,1
+Coal Bed Methane,154.8,12,academic,4,0
+General IT Infrastructure,232.3,18,academic,7,0
+General IT Infrastructure,308.0,18,cil_psu,3,0
+Coal Quality Assessment,34.1,12,academic,7,1
+Mine Safety,182.5,24,industry,6,1
+Coal Bed Methane,29.7,48,academic,5,0
+Coal Quality Assessment,102.3,42,academic,2,1
+Mine Safety,38.1,18,academic,4,1
+Coal Bed Methane,241.2,30,academic,3,1
+Coal Quality Assessment,52.4,30,academic,3,1
+Environmental Rehabilitation,162.6,48,cil_psu,5,0
+Automation in Mining,109.9,12,academic,7,0
+General IT Infrastructure,205.7,36,academic,2,1
+Coal Bed Methane,154.0,42,academic,4,0
+Coal Bed Methane,176.1,30,academic,6,0
+Automation in Mining,242.2,24,industry,5,1
+Environmental Rehabilitation,192.2,24,academic,3,0
+Mine Waste Utilization,319.3,36,cil_psu,2,1
+Coal Quality Assessment,232.7,42,cil_psu,4,0
+Coal Quality Assessment,436.9,36,cil_psu,3,1
+Underground Coal Gasification,46.4,42,cil_psu,3,1
+General IT Infrastructure,192.9,12,cil_psu,2,0
+Environmental Rehabilitation,101.6,30,cil_psu,4,1
+Automation in Mining,184.7,42,academic,5,0
+Coal Bed Methane,496.5,18,cil_psu,3,0
+Mine Waste Utilization,319.9,42,cil_psu,5,0
+General IT Infrastructure,74.6,30,academic,2,0
+Automation in Mining,143.8,30,academic,5,1
+Mine Safety,96.3,48,cil_psu,2,1
+Mine Waste Utilization,136.3,18,academic,5,1
+Underground Coal Gasification,519.6,48,cil_psu,7,0
+Coal Bed Methane,44.6,48,academic,2,0
+Coal Bed Methane,26.4,30,cil_psu,2,1
+Environmental Rehabilitation,150.9,18,academic,3,1
+Underground Coal Gasification,109.7,24,academic,4,0
+Coal Quality Assessment,206.7,48,academic,5,0
+Underground Coal Gasification,293.3,24,industry,2,0
+Mine Waste Utilization,348.2,30,cil_psu,3,0
+Underground Coal Gasification,312.3,42,academic,3,0
+Environmental Rehabilitation,84.9,42,academic,2,1
+Environmental Rehabilitation,50.1,30,academic,4,1
+Underground Coal Gasification,144.3,12,academic,7,1
+Environmental Rehabilitation,131.4,30,academic,7,1
+Automation in Mining,181.0,48,cil_psu,4,0
+Coal Quality Assessment,27.0,30,industry,5,1
+Mine Safety,117.7,30,academic,5,1
+Coal Quality Assessment,169.6,30,academic,6,1
+General IT Infrastructure,101.7,24,academic,7,0
+Mine Safety,98.8,24,cil_psu,7,0
+Mine Waste Utilization,119.3,42,academic,6,1
+Coal Quality Assessment,27.9,36,academic,3,1
+Environmental Rehabilitation,135.5,12,academic,5,1
+Coal Bed Methane,32.8,18,academic,3,0
+Environmental Rehabilitation,120.4,42,academic,5,0
+Mine Safety,262.3,24,industry,4,1
+Environmental Rehabilitation,54.1,18,academic,6,1
+Automation in Mining,54.8,36,cil_psu,7,0
+Mine Waste Utilization,201.5,18,industry,6,1
+General IT Infrastructure,349.0,24,industry,4,0
+Coal Quality Assessment,143.8,36,cil_psu,6,1
+General IT Infrastructure,26.2,30,academic,4,0
+Coal Bed Methane,76.7,18,academic,7,0
+Automation in Mining,44.9,30,academic,4,1
+Coal Bed Methane,207.8,12,industry,3,0
+General IT Infrastructure,284.3,48,academic,2,0
+Mine Waste Utilization,240.1,12,academic,5,0
+Underground Coal Gasification,23.8,48,cil_psu,7,1
+Mine Safety,110.4,36,academic,3,1
+Mine Waste Utilization,186.6,48,industry,3,0
+Automation in Mining,154.2,12,academic,6,1
+Mine Waste Utilization,178.7,18,cil_psu,3,1
+Underground Coal Gasification,100.0,42,cil_psu,4,1
+Environmental Rehabilitation,82.7,30,academic,4,1
+Coal Bed Methane,198.2,24,academic,5,1
+Underground Coal Gasification,151.1,24,academic,2,1
+Automation in Mining,133.3,48,industry,2,1
+Coal Quality Assessment,118.4,36,academic,4,1
+Automation in Mining,212.4,42,cil_psu,7,1
+Mine Safety,68.8,48,academic,5,1
+Mine Waste Utilization,488.6,42,cil_psu,2,0
+Mine Waste Utilization,147.7,30,academic,4,1
+Environmental Rehabilitation,267.3,36,academic,7,0
+Coal Bed Methane,23.3,30,academic,7,0
+Underground Coal Gasification,40.5,36,industry,4,0
+Mine Safety,132.8,24,industry,5,1
+Mine Waste Utilization,226.4,42,cil_psu,3,1
+Mine Waste Utilization,198.9,36,industry,3,1
+Underground Coal Gasification,316.6,24,industry,3,0
+Automation in Mining,416.7,36,cil_psu,6,0
+Automation in Mining,157.8,18,academic,5,1
+Coal Bed Methane,53.3,18,academic,6,0
+Underground Coal Gasification,138.6,18,cil_psu,7,1
+General IT Infrastructure,147.9,24,cil_psu,5,1
+Mine Safety,314.0,12,academic,3,0
+Underground Coal Gasification,258.8,30,academic,4,0
+Mine Waste Utilization,168.4,12,academic,7,0
+Mine Safety,309.7,30,cil_psu,3,1
+Mine Safety,337.7,36,cil_psu,3,1
+Coal Bed Methane,159.4,24,cil_psu,6,0
+Automation in Mining,150.1,42,academic,2,0
+Automation in Mining,52.2,24,academic,6,0
+General IT Infrastructure,183.3,24,academic,3,1
+Environmental Rehabilitation,192.9,42,cil_psu,5,0
+Automation in Mining,50.8,30,academic,4,1
+Automation in Mining,148.2,18,academic,5,1
+General IT Infrastructure,43.7,18,academic,3,0
+Mine Safety,165.3,48,academic,6,1
+General IT Infrastructure,128.0,30,academic,3,1
+Underground Coal Gasification,82.8,18,academic,3,1
+Coal Bed Methane,95.1,12,academic,3,1
+Automation in Mining,327.4,42,industry,2,1
+Mine Waste Utilization,201.7,48,industry,4,1
+Coal Bed Methane,145.2,30,academic,6,0
+Environmental Rehabilitation,161.9,42,academic,7,0
+Coal Quality Assessment,242.5,36,academic,3,0
+General IT Infrastructure,227.9,18,academic,4,1
+Mine Safety,172.7,48,academic,6,1
+Coal Quality Assessment,22.0,48,academic,3,1
+Environmental Rehabilitation,158.1,36,academic,2,1
+Mine Safety,131.5,18,industry,7,1
+Mine Safety,172.0,30,cil_psu,6,1
+Mine Waste Utilization,118.8,12,industry,7,1
+Mine Safety,184.9,42,academic,4,1
+Mine Safety,171.6,30,academic,6,1
+Environmental Rehabilitation,303.1,48,industry,7,0
+General IT Infrastructure,333.7,24,industry,3,1
+Coal Quality Assessment,50.6,48,cil_psu,6,0
+Automation in Mining,114.3,30,academic,4,0
+Automation in Mining,148.5,12,academic,6,1
+Mine Safety,420.0,36,cil_psu,2,0
+Coal Bed Methane,180.6,48,academic,4,1
+Coal Quality Assessment,69.3,42,cil_psu,4,0
+Environmental Rehabilitation,68.8,24,academic,7,1
+Automation in Mining,264.9,36,academic,2,0
+Mine Safety,90.5,12,academic,7,1
+General IT Infrastructure,85.4,24,cil_psu,7,1
+General IT Infrastructure,323.5,12,cil_psu,5,1
+General IT Infrastructure,181.2,18,academic,4,1
+Coal Quality Assessment,30.0,24,cil_psu,5,1
+Automation in Mining,42.9,24,academic,2,0
+Environmental Rehabilitation,74.4,42,academic,5,1
+Underground Coal Gasification,132.4,30,cil_psu,7,0
+Mine Waste Utilization,97.9,24,cil_psu,7,0
+General IT Infrastructure,119.9,36,academic,5,0
+Environmental Rehabilitation,274.5,42,cil_psu,5,1
+Mine Safety,124.5,48,academic,7,0
+Automation in Mining,124.0,24,academic,3,0
+Coal Bed Methane,331.3,42,cil_psu,5,0
+Environmental Rehabilitation,434.9,36,cil_psu,3,1
+Mine Safety,84.7,36,academic,4,1
+Mine Waste Utilization,145.9,42,cil_psu,6,1
+Automation in Mining,84.9,30,academic,5,0
+Automation in Mining,45.9,12,academic,5,0
+Automation in Mining,174.8,42,academic,7,1
+Automation in Mining,101.0,30,academic,4,1
+Mine Safety,255.0,48,cil_psu,4,1
+Coal Quality Assessment,146.9,12,academic,2,0
+Environmental Rehabilitation,174.7,42,academic,4,1
+Environmental Rehabilitation,192.9,42,academic,2,1
+Coal Bed Methane,23.6,24,cil_psu,5,1
+Coal Quality Assessment,50.2,48,academic,7,0
+Coal Bed Methane,123.1,30,academic,7,0
+Mine Safety,33.8,12,academic,4,1
+Coal Bed Methane,219.3,12,industry,6,0
+Coal Quality Assessment,97.9,24,industry,3,0
+Coal Quality Assessment,291.2,18,industry,5,1
+Mine Waste Utilization,50.1,30,academic,6,1
+Coal Bed Methane,173.1,12,cil_psu,5,0
+Underground Coal Gasification,67.3,42,academic,6,1
+General IT Infrastructure,281.9,24,academic,2,0
+Coal Quality Assessment,235.2,30,industry,4,1
+Environmental Rehabilitation,159.2,36,academic,7,0
+Underground Coal Gasification,79.4,42,cil_psu,6,1
+Environmental Rehabilitation,143.4,12,academic,4,1
+Underground Coal Gasification,188.9,36,academic,7,1
+Environmental Rehabilitation,219.5,12,cil_psu,5,0
+Automation in Mining,117.2,42,industry,7,0
+Coal Bed Methane,511.7,42,cil_psu,4,0
+Coal Bed Methane,348.7,30,cil_psu,4,1
+General IT Infrastructure,52.1,18,academic,5,0
+Mine Waste Utilization,99.5,42,academic,4,1
+Coal Bed Methane,381.3,12,cil_psu,7,1
+Mine Waste Utilization,90.4,42,academic,2,0
+General IT Infrastructure,160.6,30,academic,2,1
+General IT Infrastructure,243.1,36,academic,7,0
+Environmental Rehabilitation,209.7,48,academic,5,1
+Underground Coal Gasification,279.3,12,academic,4,0
+Coal Quality Assessment,54.1,42,academic,2,0
+Underground Coal Gasification,135.8,12,academic,5,0
+General IT Infrastructure,38.5,12,industry,7,1
+General IT Infrastructure,381.3,48,industry,6,0
+Automation in Mining,185.2,12,academic,2,0
+Mine Safety,298.5,12,academic,2,1
+Environmental Rehabilitation,216.3,12,industry,6,0
+Mine Waste Utilization,281.4,48,academic,4,0
+Automation in Mining,28.2,48,academic,3,1
+Automation in Mining,202.6,18,cil_psu,5,1
+Automation in Mining,87.7,48,academic,3,1
+Mine Safety,126.9,12,academic,4,1
+General IT Infrastructure,109.4,18,cil_psu,5,0
+Mine Safety,333.6,42,cil_psu,7,1
+Mine Waste Utilization,197.6,18,academic,2,0
+Underground Coal Gasification,69.8,42,academic,3,1
+General IT Infrastructure,27.8,18,academic,7,1
+Coal Bed Methane,254.4,48,academic,2,0
+Automation in Mining,40.9,12,academic,3,1
+Coal Quality Assessment,78.6,42,academic,2,1
+Mine Waste Utilization,365.4,30,industry,6,0
+Automation in Mining,89.7,36,academic,3,1
+Coal Quality Assessment,30.6,18,industry,6,1
+General IT Infrastructure,59.6,18,academic,4,0
+Automation in Mining,368.2,36,cil_psu,6,0
+General IT Infrastructure,161.3,24,industry,3,1
+Underground Coal Gasification,541.9,36,industry,2,1
+General IT Infrastructure,195.3,36,cil_psu,5,0
+Environmental Rehabilitation,155.6,18,academic,7,0
+Automation in Mining,36.3,18,academic,5,1
+General IT Infrastructure,342.2,42,industry,5,0
+Mine Waste Utilization,103.6,48,academic,7,0
+Mine Waste Utilization,117.9,24,industry,4,1
+Underground Coal Gasification,130.8,12,cil_psu,2,0
+Coal Quality Assessment,173.6,12,industry,2,1
+Environmental Rehabilitation,343.8,48,cil_psu,3,0
+Underground Coal Gasification,136.4,48,cil_psu,4,1
+Mine Safety,110.3,24,academic,2,1
