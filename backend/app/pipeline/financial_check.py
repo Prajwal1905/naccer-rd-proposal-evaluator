@@ -11,7 +11,21 @@ GUIDELINE_TOP_K = 6
 
 EXTRACT_SYSTEM_PROMPT = """You are a financial analyst reviewing R&D proposal budgets for a \
 coal-sector funding body. Given the budget and timeline text of a proposal, extract a \
-structured summary of its financial parameters. Respond ONLY as a JSON object with this shape:
+structured summary of its financial parameters.
+
+IMPORTANT EXTRACTION RULES:
+1. If the budget is presented as a table with multiple year columns (Year 1, Year 2, Year 3) \
+AND a "Total" column or row, use ONLY the Total column/row values for each budget head. Do \
+NOT sum the year columns yourself — use the explicitly stated total for each head.
+2. If the proposal explicitly states the overall Total Project Cost (TPC), use that exact \
+stated figure for total_project_cost_lakhs. Do not recalculate it from individual heads.
+3. Map each budget line item to the closest matching standard head: Manpower, Equipment, \
+Consumables, Contingency & Travel, Institutional Overhead, Contractual/Outsourced Services. \
+If a line item does not clearly fit one of these, put it under "other_lakhs".
+4. Be precise with decimal values — extract numbers exactly as written (e.g. "55.00" stays \
+55.00, not rounded).
+
+Respond ONLY as a JSON object with this shape:
 {
   "total_project_cost_lakhs": <number or null, total project cost in INR Lakhs>,
   "duration_months": <number or null>,
@@ -114,7 +128,7 @@ def _compute_budget_percentages(extracted_budget: dict) -> dict:
 
 def _extract_budget_fields(budget_text: str, timeline_text: str) -> dict:
     combined = f"BUDGET SECTION:\n{budget_text[:3000]}\n\nTIMELINE/DURATION SECTION:\n{timeline_text[:1000]}"
-    return chat_completion_json(EXTRACT_SYSTEM_PROMPT, combined, max_tokens=1024)
+    return chat_completion_json(EXTRACT_SYSTEM_PROMPT, combined, max_tokens=1024, temperature=0.0)
 
 
 def _retrieve_guideline_chunks(extracted_budget: dict, budget_text: str) -> list[str]:
