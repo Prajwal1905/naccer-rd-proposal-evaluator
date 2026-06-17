@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings
-from app.routers import evaluate
+from app.routers import evaluate, trends
 from app.models.schemas import HealthResponse
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
@@ -27,6 +27,7 @@ app.add_middleware(
 )
 
 app.include_router(evaluate.router)
+app.include_router(trends.router)
 
 
 @app.get("/", response_model=HealthResponse)
