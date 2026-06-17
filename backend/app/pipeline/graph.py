@@ -2,7 +2,7 @@
 import logging
 from typing import TypedDict, Optional
 
-from langgraph.graph import StateGraph, END
+from langgraph.graph import StateGraph, END, START
 
 from app.pipeline.novelty_check import run_novelty_check, NoveltyResult
 from app.pipeline.financial_check import run_financial_check, FinancialCheckResult
@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 class PipelineState(TypedDict):
-    proposal_sections: dict  
+    proposal_sections: dict
     novelty_result: Optional[NoveltyResult]
     financial_result: Optional[FinancialCheckResult]
     feasibility_result: Optional[FeasibilityResult]
@@ -88,12 +88,17 @@ def build_pipeline_graph():
     graph.add_node("ml_prediction", ml_prediction_node)
     graph.add_node("aggregator", aggregator_node)
 
-    # Sequential ordering: novelty -> financial -> feasibility -> ml -> aggregator
-    graph.set_entry_point("novelty_check")
-    graph.add_edge("novelty_check", "financial_check")
-    graph.add_edge("financial_check", "feasibility_check")
+    graph.add_edge(START, "novelty_check")
+    graph.add_edge(START, "financial_check")
+    graph.add_edge(START, "feasibility_check")
+
+    graph.add_edge("financial_check", "ml_prediction")
     graph.add_edge("feasibility_check", "ml_prediction")
+
+    
+    graph.add_edge("novelty_check", "aggregator")
     graph.add_edge("ml_prediction", "aggregator")
+
     graph.add_edge("aggregator", END)
 
     return graph.compile()
