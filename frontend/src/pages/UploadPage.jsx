@@ -56,13 +56,29 @@ export default function UploadPage({ onReportReady }) {
       formData.append('file', file)
       const response = await axios.post(`${API_URL}/evaluate/upload`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
+        timeout: 120000, // 2 minute timeout for long pipeline runs
       })
       onReportReady(response.data)
     } catch (err) {
-      setError(
-        err.response?.data?.detail ||
-        'Something went wrong. Make sure the backend is running on port 8000.'
-      )
+      if (err.code === 'ECONNABORTED') {
+        setError(
+          'The evaluation is taking longer than expected and timed out. This can happen with ' +
+          'very long proposals. Please try again.'
+        )
+      } else if (err.code === 'ERR_NETWORK' || !err.response) {
+        setError(
+          'Could not connect to the evaluation server. Please make sure the backend is running ' +
+          '(uvicorn on port 8000) and try again.'
+        )
+      } else if (err.response.status === 422) {
+        setError(err.response.data?.detail || 'The PDF could not be processed. Please check the document and try again.')
+      } else if (err.response.status === 400) {
+        setError(err.response.data?.detail || 'Invalid file. Please upload a valid PDF proposal.')
+      } else if (err.response.status === 502) {
+        setError(err.response.data?.detail || 'The AI evaluation service is temporarily unavailable. Please try again in a moment.')
+      } else {
+        setError(err.response?.data?.detail || 'Something went wrong while evaluating the proposal. Please try again.')
+      }
     } finally {
       clearInterval(interval)
       setLoading(false)
@@ -72,8 +88,6 @@ export default function UploadPage({ onReportReady }) {
 
   return (
     <div className="max-w-2xl mx-auto">
-
-      
       <div className="mb-8 text-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">
           Upload R&D Proposal for Evaluation
@@ -117,12 +131,13 @@ export default function UploadPage({ onReportReady }) {
 
       
       {error && (
-        <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-600 text-sm">
-          {error}
+        <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
+          <p className="text-red-700 text-sm font-medium mb-1">Evaluation could not be completed</p>
+          <p className="text-red-600 text-sm">{error}</p>
         </div>
       )}
 
-      
+     
       <button
         onClick={handleSubmit}
         disabled={!file || loading}
@@ -133,7 +148,6 @@ export default function UploadPage({ onReportReady }) {
         {loading ? 'Evaluating...' : 'Run Evaluation'}
       </button>
 
-      
       {loading && (
         <div className="mt-6 bg-white border border-gray-200 rounded-xl p-5">
           <div className="flex items-center gap-3">
@@ -147,7 +161,7 @@ export default function UploadPage({ onReportReady }) {
         </div>
       )}
 
-     
+      
       <div className="mt-10 grid grid-cols-2 gap-4">
         {[
           { title: 'Novelty Check', desc: 'Section-level comparison against past funded proposals' },
