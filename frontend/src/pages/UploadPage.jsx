@@ -149,15 +149,61 @@ export default function UploadPage({ onReportReady }) {
       </button>
 
       {loading && (
-        <div className="mt-6 bg-white border border-gray-200 rounded-xl p-5">
-          <div className="flex items-center gap-3">
-            <div className="w-4 h-4 border-2 border-blue-700 border-t-transparent
-                            rounded-full animate-spin shrink-0" />
-            <p className="text-blue-800 text-sm font-medium">{progress}</p>
+        <div className="mt-6">
+          <div className="bg-white border border-gray-200 rounded-xl p-5 mb-4">
+            <div className="flex items-center gap-3">
+              <div className="w-4 h-4 border-2 border-blue-700 border-t-transparent
+                              rounded-full animate-spin shrink-0" />
+              <p className="text-blue-800 text-sm font-medium">{progress}</p>
+            </div>
+            <p className="text-gray-400 text-xs mt-3">
+              This usually takes 30 to 60 seconds depending on proposal length.
+            </p>
           </div>
-          <p className="text-gray-400 text-xs mt-3">
-            This usually takes 30 to 60 seconds depending on proposal length.
-          </p>
+
+          
+          <div className="space-y-3 opacity-60">
+           
+            <div className="bg-white border border-gray-200 rounded-xl p-5">
+              <div className="flex items-center justify-between">
+                <div className="space-y-2">
+                  <div className="h-2.5 w-28 bg-gray-200 rounded animate-pulse" />
+                  <div className="h-5 w-40 bg-gray-200 rounded animate-pulse" />
+                </div>
+                <div className="space-y-2 text-right">
+                  <div className="h-2.5 w-20 bg-gray-200 rounded animate-pulse ml-auto" />
+                  <div className="h-8 w-16 bg-gray-200 rounded animate-pulse ml-auto" />
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-4 gap-3">
+              {[0, 1, 2, 3].map((i) => (
+                <div key={i} className="bg-white border border-gray-200 rounded-xl p-4">
+                  <div className="h-2.5 w-16 bg-gray-200 rounded animate-pulse mb-3" />
+                  <div className="h-6 w-12 bg-gray-200 rounded animate-pulse mb-3" />
+                  <div className="h-1.5 w-full bg-gray-100 rounded-full" />
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-5 space-y-2">
+              <div className="h-2.5 w-32 bg-gray-200 rounded animate-pulse mb-2" />
+              <div className="h-3 w-full bg-gray-100 rounded animate-pulse" />
+              <div className="h-3 w-full bg-gray-100 rounded animate-pulse" />
+              <div className="h-3 w-3/4 bg-gray-100 rounded animate-pulse" />
+            </div>
+
+            
+            {[0, 1, 2].map((i) => (
+              <div key={i} className="bg-white border border-gray-200 rounded-xl p-5">
+                <div className="flex items-center justify-between">
+                  <div className="h-3 w-44 bg-gray-200 rounded animate-pulse" />
+                  <div className="h-6 w-12 bg-gray-200 rounded animate-pulse" />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
