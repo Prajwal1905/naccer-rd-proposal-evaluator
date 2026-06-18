@@ -17,6 +17,8 @@ PRIORITY_AREAS_COLLECTION = "priority_areas"
 # Sections of a past proposal we embed individually for section-level novelty matching
 PROPOSAL_SECTION_FIELDS = ["abstract", "objectives", "methodology"]
 
+_embedding_function = None
+
 
 def get_chroma_client():
     settings = get_settings()
@@ -25,10 +27,19 @@ def get_chroma_client():
 
 
 def get_embedding_function():
-    settings = get_settings()
-    return embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name=settings.embedding_model
-    )
+    
+    global _embedding_function
+    if _embedding_function is None:
+        settings = get_settings()
+        _embedding_function = embedding_functions.SentenceTransformerEmbeddingFunction(
+            model_name=settings.embedding_model
+        )
+    return _embedding_function
+
+
+def preload_embedding_function():
+    
+    get_embedding_function()
 
 
 def _get_or_create_collection(client, name: str):
