@@ -12,9 +12,7 @@ This system ingests a proposal PDF and automatically runs four parallel/sequenti
 
 ## Demo
 
-## Demo
-
-[Watch Demo Video](https://drive.google.com/file/d/1FCGHgXGzDJAuesI-KZ2j8WAcL9hcU4uH/view?usp=drive_link)
+[Watch Demo Video](https://drive.google.com/file/d/1FCGHgXGzDJAuesI-KZ2j8WAcL9hcU4uH/view?usp=sharing)
 
 ## Features
 
