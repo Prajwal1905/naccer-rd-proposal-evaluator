@@ -10,6 +10,12 @@ NaCCER manually reviews R&D proposals for novelty, financial compliance, and tec
 
 This system ingests a proposal PDF and automatically runs four parallel/sequential evaluation checks, then aggregates them into a single, explainable, reviewer-ready report.
 
+## Demo
+
+## Demo
+
+[Watch Demo Video](https://drive.google.com/file/d/1FCGHgXGzDJAuesI-KZ2j8WAcL9hcU4uH/view?usp=drive_link)
+
 ## Features
 
 - **PDF Ingestion & Extraction** — parses proposal PDFs into structured sections (title, abstract, objectives, methodology, budget, timeline, deliverables) using heuristic heading detection with an LLM fallback for unstructured documents.
